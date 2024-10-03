@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package ch1helloworld
 
 type Language struct {
 	translationOfWorld string
@@ -22,8 +20,4 @@ func Hello(name string, language Language) string {
 		name = language.translationOfWorld
 	}
 	return language.helloPrefix + name
-}
-
-func main() {
-	fmt.Println(Hello("world", English))
 }
