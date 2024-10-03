@@ -1,0 +1,1 @@
+My personal solution for Learn Go with tests, found [here](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/integers)
