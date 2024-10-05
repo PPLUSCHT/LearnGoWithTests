@@ -10,7 +10,7 @@ func TestSum(t *testing.T) {
 	t.Run("Should sum all the numbers in a slice", func(t *testing.T) {
 		output := 10
 		expected := Sum([]int{1, 2, 3, 4})
-		testutil.AssertIntegersAreEqual(t, output, expected)
+		testutil.AssertEqual(t, output, expected)
 	})
 }
 
